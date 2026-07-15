@@ -1,30 +1,44 @@
-# Python Basics
+# Python Mastery Journey
 
-This folder documents my Python fundamentals.
+Hi, I’m Elavarasi. This repository documents my Python learning journey from fundamentals to advanced concepts.
 
-## Topics Covered
+## Goal
 
-- Variables
-- Data Types
-- Strings
-- Input / Output
-- Type Casting
-- Operators
+To become strong in Python, problem solving, and software development by practicing consistently and documenting my learning.
+
+## Topics Covered So Far
+
+- Variables and data types
+- Type conversion
+- Strings and slicing
 - Lists
 - Conditions
 - Loops
-- While Loop
-- Range
-- Slicing
-- Unicode (ord() and chr())
-- Boolean Type Conversion
+- While loops
+- Functions
+- Parameters and arguments
+- Return values
+- Unicode using ord() and chr()
+- Boolean logic
+- Basic problem solving
 
 ## Problems Solved
 
 - FizzBuzz
-- Maximum Element
-- Sum of Digits
-- Reverse Number
-- Reverse String without Slicing
-- Password Generator
-- Unicode Character Conversion
+- Maximum number in a list
+- Sum of digits
+- Reverse number
+- Reverse string without slicing
+- Password generator
+- Unicode character conversion
+- Type conversion prediction questions
+- Vowel counting
+
+## Learning Style
+
+For each topic, I document:
+- Concept
+- Code examples
+- Mistakes I made
+- What I learned
+- Practice problems
