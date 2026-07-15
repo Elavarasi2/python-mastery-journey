@@ -160,3 +160,9 @@ def country(city, country_name):
     print(city , " is in ",country_name)
     
 country("Chennai","India")
+
+------------------------------------------------------------------------------------------------------------------------
+import random
+friends=["Ela","Sheero","Teesa","Liya","Jeeva"]
+name=random.choice(friends)
+print(name)
