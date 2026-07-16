@@ -28,9 +28,9 @@ To become strong in Python, problem solving, and software development by practic
 - Maximum number in a list
 - Sum of digits
 - Reverse number
-- Reverse string without slicing
+- Reverse string without slicing (I have developed a code without using sliceing and any functions .Just have created by using loops and indexing concepts )
 - Password generator
-- Unicode character conversion
+- Unicode character conversion 
 - Type conversion prediction questions
 - Vowel counting
 
