@@ -50,7 +50,7 @@ for ch in word:
   # Convert uppercase into lowercase without .lower().
 word = "PyTHoN"
 for ch in word :
-    if 65 <= ord(ch) < 97:
+    if 65 <= ord(ch) < 97:  # Chaining Comparison Operators
         fin = ord(ch) + 32
         print(chr(fin), end = "")
     else :
