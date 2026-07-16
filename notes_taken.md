@@ -1,7 +1,9 @@
-# l1=[1,2,3]
-# l2=[4,5,6]
-# l3=[l1,l2]
-# print(l3)
+# Nested List
+ 
+ l1=[1,2,3]
+ l2=[4,5,6]
+ l3=[l1,l2]
+ print(l3)
 ------------------------------------------------------------------------------------------------------
 m=[]
 
@@ -18,6 +20,7 @@ print(m)
 x="hi"
 y="hi"
 
+# id 
 print(id(x))
 print(id(y))
 if x==y:
@@ -35,7 +38,7 @@ message = message + " World"  # "Hello" is discarded; a new "Hello World" object
 print(id(message))
 
 ------------------------------------------------------------------------------------------------------
-Why is this allowed?
+ # Why is this allowed?
 
 Because variables are mutable in the sense that they can be rebound to different objects.
 
@@ -73,6 +76,7 @@ fruits=["cherry","pineapple","apple","ela"]
 print(fruits[:2])
 print(fruits[:])
 
+# Range function
 for i in range(1,6):
     print(f"Elavarsi , this is {i} warning")
 
@@ -81,14 +85,14 @@ OR
 for i in range(1,6):
     print("Elavarsi , this is "+str(i)+" warning")
 
-^^^ Error ^^^
+# Error ^^^
 for i in range(6):
     print(f"Elavarsi , this is "+{i}+" warning")
 
 for i in range(6):
     print("Elavarsi , this is "+i+" warning")
 
--------------------Highest Score of students(My answer)
+# Highest Score of students(My answer)
 
 student_scores=[50,100,80,70,50,120,30,50,60,70,80]
 max=student_scores[0] or max=0
@@ -96,7 +100,8 @@ for result in student_scores: # result=50
     if max<result: #50 
         max=result
 print(max)
--------------------------sum of numbers using LOOPS
+
+## sum of numbers using LOOPS
 student_scores=[50,100,80,70,50,120,30,50,60,70,80]
 sum=0 #50
 for result in student_scores: # result=50
@@ -162,7 +167,14 @@ def country(city, country_name):
 country("Chennai","India")
 
 ------------------------------------------------------------------------------------------------------------------------
+# Printing Random elements within a List
 import random
 friends=["Ela","Sheero","Teesa","Liya","Jeeva"]
 name=random.choice(friends)
 print(name)
+
+------------------------------------------------------------------------------------------------------------------------
+# Ternary Operator
+age = 19
+message = "Eligible" if age >= 18 else "Not Eligible"
+print(message)
