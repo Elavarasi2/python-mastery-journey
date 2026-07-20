@@ -1,3 +1,26 @@
+What is GitLab?
+=> GitLab is a web-based platform that helps developers manage, collaborate on, and deploy code.
+GitLab is a comprehensive, web-based DevSecOps platform used by developers to plan, build, secure, and deploy software. 
+It functions as a central hub where teams can host code repositories (like Git), collaborate on code reviews, automate testing and deployment (CI/CD), and track project progress.
+
+Think of it this way:
+
+Git = The version control system that tracks changes to your code.
+GitLab = A platform built around Git that stores your repositories online and provides many additional tools for software development.
+GitLab is designed as a single application that covers the entire software development lifecycle, eliminating the need to stitch together multiple third-party tools.
+Its core features include:
+Source Code Management (SCM):
+        Like Git, GitLab allows you to create, clone, push, and pull repositories. 
+        It provides version control to ensure that every change to your code is tracked and managed efficiently.
+CI/CD Pipelines:
+        GitLab offers industry-leading continuous integration and continuous delivery. 
+        This means every time code is committed, it can be automatically built and tested to catch bugs early, then automatically deployed to production.
+Project Management:
+         It includes built-in issue tracking, Kanban boards, and Scrum boards to help teams organize tasks, bugs, and feature requests.
+Security Scanning:
+         GitLab seamlessly integrates security into the development process (DevSecOps) by automatically scanning code for vulnerabilities and leaked secrets with every push.
+
+
 Developer
 
 ↓
