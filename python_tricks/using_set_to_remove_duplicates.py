@@ -9,3 +9,8 @@ print(set(string))
 # A set uses a special data structure called a hash table.
 # It places elements based on their hash value, not on the order they were added.
 # So the printed order is based on internal storage, not insertion order.
+
+# --------------------------- IF ORDER MATTERS ---------------------------
+  foo = 'mppmt'
+  res =  ''.join(sorted(set(foo), key=foo.index))
+  print(res)
