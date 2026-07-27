@@ -178,3 +178,15 @@ print(name)
 age = 19
 message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
+
+------------------------------------------------------------------------------------------------------------------------
+# print vs return
+
+| `print()`                                               | `return`                                 |
+| ------------------------------------------------------- | ---------------------------------------- |
+| Displays a value                                        | Sends a value back to the caller         |
+| Value cannot be reused automatically                    | Value can be stored and reused           |
+| Function usually returns `None` if there is no `return` | Function returns the specified value     |
+| Used for output                                         | Used for computation and passing results |
+
+------------------------------------------------------------------------------------------------------------------------
