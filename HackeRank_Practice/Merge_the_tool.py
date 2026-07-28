@@ -24,13 +24,10 @@
 def merge_the_tools(string, k):
     # your code goes here
     l = len(string)
-    # s = l // k --------------- the line i misunderstood and then commented
+              # s = l // k --------------- the line i misunderstood and then commented
     for i in range(0,l,k):
         store = string[i:i+k]
         print("".join(dict.fromkeys(store)))
-    
-
-    
     
 if __name__ == '__main__':
     string, k = input(), int(input())
