@@ -33,8 +33,21 @@
   0   1   2   3
           # Memory - So here python created 3 string objects
           # Examples :
+          
                     word = "Developer"
                     print(word[::-1][3:7])
                       
                     word = "Python"
                     print(word[:4][::-1])
+           # Indexing vs Slicing :
+                # --- Slicing
+                     word = "Python"
+                     print(word[10:])     # ""
+                # --- Indexing
+                      word = "Python"\
+                      print(word[10])      # Error
+
+ # Rule
+  
+          -If the stop index is greater than the length, Python quietly adjusts it to the end of the string.
+          -
