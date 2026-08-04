@@ -190,3 +190,40 @@ print(message)
 | Used for output                                         | Used for computation and passing results |
 
 ------------------------------------------------------------------------------------------------------------------------
+# Python Fundamentals
+- Python is dynamic language and has automatic garbage collection
+- It uses indentation to define code blocks instead of {} like in C,C++,Java
+  # Comments in Python
+  # This is a single-line comment
+
+""" Multi-line comment used
+print("Python Comments") """ 
+# Python does not allow a string literal to continue onto the next line like that.
+# Valid:
+      text = """He said "I'm learning Python."""" # If both comes in a line
+      msg = 'He said "Hello"'    # when want double quotes can use single out
+      name = "I'm Elavarasi"     # when want single can use double quotes outside
+ 
+
+      
+------------------------------------------------------------------------------------------------------------------------
+ # Split()
+ - split() divides the input string wherever it finds a space (by default) and returns a list. The values from that list are then assigned sequentially to the variables.
+ - The split() method breaks a string into multiple pieces.
+ - By default, it splits wherever it finds a space.
+ - So,
+
+"10 20".split()
+becomes
+["10", "20"]
+
+Notice something?
+
+It returned a list.
+------- What happens if the user enters multiple spaces?
+---------------> It intelligently ignores extra spaces and returns:
+
+i.e:
+- x = ["10", "20", "30", "40"]
+Notice.
+-> split() converted one string into a list of strings.
