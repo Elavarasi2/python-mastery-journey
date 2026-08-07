@@ -51,3 +51,36 @@
   
           -If the stop index is greater than the length, Python quietly adjusts it to the end of the string.
           -
+
+# String Immutability
+           - Immutable means that once a string object is created, the existing object cannot be modified.
+            - However, the variable can be reassigned to a new string object.
+           - Example : 
+                   word = "Python"
+                   old = word
+                   word = word + "3"
+                   print(old)
+                   print(word)
+# What happens in memory?
+
+Initially:
+
+          ┌──────────┐
+word ───► │ "Python" │
+          └──────────┘
+              ▲
+              │
+old ──────────┘
+
+Both word and old reference the same "Python" object.
+
+Then:
+
+word = word + "3"
+Python does not modify the existing "Python" string.
+It creates a new string object "Python3" and makes word reference it:
+
+old  ─────► "Python"
+
+word ─────► "Python3"
+
