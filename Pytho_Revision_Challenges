@@ -1,0 +1,56 @@
+# Python Fundamentals - Revision Challenge 01
+
+This folder contains coding exercises I completed while revising
+the Python concepts I have studied so far.
+
+## Topics Practiced
+
+- Type conversion
+- Boolean conversion
+- Strings
+- ASCII / Unicode
+- String slicing
+- Nested slicing
+- Conditions
+- Logical operators
+- for loops
+- range()
+- Character counting
+- String chunking
+- Variable scope
+- for-else
+- Basic input validation
+
+## Challenges
+
+1. Type Conversion & Boolean
+2. Unicode Case Toggle
+3. String Slicing
+4. Nested Slicing
+5. Character Analyzer
+6. String Chunking
+7. Functions & Return - To Be Revisited
+8. Local & Global Scope
+9. for-else Execution
+10. Username Analyzer
+
+## What I Learned
+
+The exercises helped me revise concepts individually and also
+combine multiple concepts in a single program.
+
+The Username Analyzer combined strings, loops, conditions,
+ASCII/Unicode ranges, counters, logical operators, slicing,
+and validation logic.
+
+## Areas to Strengthen
+
+- Functions
+- Return values
+
+I will revisit these after studying the Functions phase systematically.
+
+## Learning Approach
+
+I attempt coding problems independently before reviewing or
+improving my solutions.
