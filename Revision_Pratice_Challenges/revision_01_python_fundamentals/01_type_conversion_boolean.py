@@ -1,0 +1,5 @@
+	print(bool("False"))
+	print(bool(""))
+	print(int(True))
+	print(str(False))
+	print(bool(" "))
